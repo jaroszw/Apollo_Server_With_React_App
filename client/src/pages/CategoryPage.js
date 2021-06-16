@@ -36,7 +36,7 @@ function CategoryPage() {
     <div className="py-5">
       <Container>
         <h1 className="text-capitalize">
-          {category.title}
+          {category.category}
           <CardDisplay animals={category.animals} />
         </h1>
       </Container>
